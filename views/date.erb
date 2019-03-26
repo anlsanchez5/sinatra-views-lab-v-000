@@ -7,7 +7,7 @@ require 'date'
   <body>
     <h1>Today</h1>
     <% date = Time.now %>
-    <% date_display = date.strftime('%a, %b %d, %Y')%>
+    <% date_display = date.strftime('%A, %B %d, %Y')%>
     <p><%= "The date is " + date_display %></p>
   </body>
 </html>
